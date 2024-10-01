@@ -1,0 +1,9 @@
+REPUESTAS A LAS PREGUNTAS 4 Y 5 DEL EJERCICIO DE COMPROBACIÓN
+
+4. ¿Qué observas en la ruta http://localhost:8000/?
+r: Se redirige al panel de administración de django, por lo que se observa una interfaz para hacer login.
+
+
+5. ¿Qué observas en la ruta http://localhost:8000/book/?
+r: Se redirige a la url definida, la cual muestra el siguiente mensaje: “Bienvenidos a mi 
+sitio de libros”. Tal como se solicita en el punto 2 del ejercicio de comprobación.
