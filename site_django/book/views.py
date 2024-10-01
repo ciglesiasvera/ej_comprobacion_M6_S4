@@ -5,5 +5,8 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Bienvenidos a mi sitio de libros")  
 
+""" def home(request):
+    return redirect('/admin/') """
+    
 def home(request):
-    return redirect('/admin/')
+    return render(request, 'book/index.html')
